@@ -171,3 +171,43 @@ function topFunction() {
     })
 }
 
+var swiper = new Swiper(".sertificate-slider", {
+    slidesPerView: 2,
+    spaceBetween: 20,
+    loop: true,
+    centeredSlides: true,
+    autoplay: {
+        delay: 3000,
+    },
+    breakpoints: {
+        768: {
+            slidesPerView: 3,
+            spaceBetween: 30
+        },
+        992: {
+            slidesPerView: 4,
+            spaceBetween: 40
+        },
+        1100: {
+            slidesPerView: 5,
+            spaceBetween: 40
+        }
+    }
+});
+
+var swiper = new Swiper(".reviwe-slider", {
+    slidesPerView: 1,
+    spaceBetween: 20,
+    loop: true,
+    autoplay: {
+        delay: 4000,
+    },
+    breakpoints: {
+        568: {
+            slidesPerView: "auto",
+        }
+    }
+});
+
+Fancybox.bind("[data-fancybox]", {});
+
