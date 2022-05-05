@@ -1,0 +1,241 @@
+.footer {
+    position: relative;
+    padding: 112px 0 206px 0;
+    overflow: hidden;
+
+    .wave-2 {
+        bottom: 0;
+        max-height: 900px;
+    }
+
+    &__img-bg {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: -19;
+        top: 113px;
+        
+        @media (min-width: 993px) {
+            img {
+                animation: map 7s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
+            }
+
+        }
+    }
+
+    .main-container {
+        position: relative;
+    }
+
+    &__photo {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 0;
+        margin-left: 428px;
+        bottom: -140px;
+        z-index: -18;
+    }
+
+    .section-title {
+        max-width: 950px;
+        padding-left: 112px;
+        position: relative;
+        margin-bottom: 28px;
+        
+        &:after {
+            margin: 0 0 18px 27px;
+        }
+
+        &__quotes {
+            position: absolute;
+            left: 3px;
+            top: 21px;
+            color: #007763;
+        }
+    }
+
+    &__info {
+        padding-left: 112px;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    &__row {
+        margin-bottom: 7px;
+    }
+
+    &__phone {
+        text-decoration: none;
+        outline: 0;
+        transition: 0.3s all ease;
+        color: $mainColor;
+
+        &:hover {
+            color: #007763;
+        }
+    }
+
+    &__developer {
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 10px;
+        color: #737373;
+        font-family: $GilroyfontFamili;
+
+        a {
+            text-decoration: none;
+            outline: 0;
+            transition: 0.3s all ease;
+            font-weight: 600;
+            color: $mainColor;
+
+            &:hover {
+                color: #007763;
+            }
+        }
+    }
+
+    &__name {
+        padding-top: 12px;
+        margin-bottom: 31px;
+    }
+}
+.social-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+
+    &__item {
+        margin-right: 11px;
+    }
+
+    &__link {
+        text-decoration: none;
+        outline: 0;
+        transition: 0.3s all ease;
+        color: $mainColor;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+
+        &:hover {
+            color: #007763;
+        }
+    }
+
+    &__ico {
+        display: inline-block;
+        width: 23px;
+        height: 23px;
+        border-radius: 50%;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 10px;
+    }
+
+    &__ico-telegram {
+        background: #2EA5D8;
+
+        .icon {
+            width: 13px;
+            height: 11px;
+        }
+    }
+
+    &__ico-viber {
+        background: #7F4DA0;
+
+        .icon {
+            width: 12px;
+            height: 12px;
+        }
+    }
+
+    &__ico-whatsapp {
+        background: #25D366;
+
+        .icon {
+            width: 12px;
+            height: 12px;
+        }
+    }
+}
+
+
+@keyframes map {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+@media (max-width: 1200px) and (min-width: 992px) {
+    .footer .section-title {
+        max-width: 650px;
+        padding-left: 81px;
+        margin-bottom: 28px;
+        font-size: 33px;
+    }
+    .footer__info {
+        padding-left: 81px;
+        font-size: 18px;
+        line-height: 27px;
+        max-width: 559px;
+    }
+    .footer__photo {
+        margin-left: 328px;
+        bottom: -185px;
+    }
+}
+
+@media (max-width: 991px) {
+    .footer__photo {
+        display: none;
+    }
+    .footer {
+        position: relative;
+        padding: 60px 0 106px 0;
+    }
+    .footer .section-title {
+        max-width: 660px;
+        padding-left: 112px;
+        position: relative;
+        margin-bottom: 28px;
+    }
+    .footer__img-bg {
+        top: auto;
+        bottom: 0;
+    }
+    .footer {
+        .wave-1 {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 668px) {
+    .footer {padding: 30px 0 56px 0;}
+    .footer .section-title {
+        max-width: 650px;
+        padding-left: 0;
+        padding-top: 70px;
+        margin-bottom: 28px;
+        font-size: 31px;
+    }
+    .footer__info {
+        padding-left: 0;
+    }
+    .footer .section-title {
+        max-width: 300px;
+        font-size: 27px;
+    }
+}

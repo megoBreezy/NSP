@@ -1,0 +1,121 @@
+@font-face {
+	font-family: 'Circe';
+	src: url('fonts/Circe-Regular.eot');
+	src: local('Circe'), local('Circe-Regular'),
+		url('fonts/Circe-Regular.eot?#iefix') format('embedded-opentype'),
+		url('fonts/Circe-Regular.woff') format('woff'),
+		url('fonts/Circe-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Circe';
+	src: url('fonts/Circe-Bold.eot');
+	src: local('Circe Bold'), local('Circe-Bold'),
+		url('fonts/Circe-Bold.eot?#iefix') format('embedded-opentype'),
+		url('fonts/Circe-Bold.woff') format('woff'),
+		url('fonts/Circe-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Circe';
+	src: url('fonts/Circe-ExtraBold.eot');
+	src: local('Circe ExtraBold'), local('Circe-ExtraBold'),
+		url('fonts/Circe-ExtraBold.eot?#iefix') format('embedded-opentype'),
+		url('fonts/Circe-ExtraBold.woff') format('woff'),
+		url('fonts/Circe-ExtraBold.ttf') format('truetype');
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('fonts/Gilroy-Bold.eot');
+    src: local('Gilroy Bold'), local('Gilroy-Bold'),
+        url('fonts/Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Gilroy-Bold.woff2') format('woff2'),
+        url('fonts/Gilroy-Bold.woff') format('woff'),
+        url('fonts/Gilroy-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('fonts/Gilroy-Regular.eot');
+    src: local('Gilroy Regular'), local('Gilroy-Regular'),
+        url('fonts/Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Gilroy-Regular.woff2') format('woff2'),
+        url('fonts/Gilroy-Regular.woff') format('woff'),
+        url('fonts/Gilroy-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('fonts/Gilroy-Semibold.eot');
+    src: local('Gilroy Semibold'), local('Gilroy-Semibold'),
+        url('fonts/Gilroy-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Gilroy-Semibold.woff2') format('woff2'),
+        url('fonts/Gilroy-Semibold.woff') format('woff'),
+        url('fonts/Gilroy-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family:'Manrope';
+    src: url('fonts/Manrope Bold.eot');
+	src: url('fonts/Manrope Bold.eot?#iefix') format('embedded-opentype'),
+		url('fonts/Manrope Bold.woff2') format('woff2'),
+		url('fonts/Manrope Bold.woff') format('woff'),
+		url('fonts/Manrope Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-2212;
+}
+
+@font-face {
+    font-family:'Manrope';
+    src: url('fonts/Manrope Regular.eot');
+	src: url('fonts/Manrope Regular.eot?#iefix') format('embedded-opentype'),
+		url('fonts/Manrope Regular.woff2') format('woff2'),
+		url('fonts/Manrope Regular.woff') format('woff'),
+		url('fonts/Manrope Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-2212;
+}
+
+@font-face {
+    font-family:'Manrope';
+    src: url('fonts/Manrope SemiBold.eot');
+	src: url('fonts/Manrope SemiBold.eot?#iefix') format('embedded-opentype'),
+		url('fonts/Manrope SemiBold.woff2') format('woff2'),
+		url('fonts/Manrope SemiBold.woff') format('woff'),
+		url('fonts/Manrope SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-2212;
+}
+
+@font-face {
+    font-family:'Manrope';
+    src: url('fonts/Manrope ExtraBold.eot');
+	src: url('fonts/Manrope ExtraBold.eot?#iefix') format('embedded-opentype'),
+		url('fonts/Manrope ExtraBold.woff2') format('woff2'),
+		url('fonts/Manrope ExtraBold.woff') format('woff'),
+		url('fonts/Manrope ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-2212;
+}

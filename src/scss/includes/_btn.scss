@@ -1,0 +1,75 @@
+
+.btn {
+    font-family: $ManropefontFamili;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 31px;
+    display: inline-block;
+    border-radius: 50px;
+    transition: 0.3s all ease;
+    text-decoration: none;
+    outline: 0;
+    padding: 13px 83px;
+    border: 2px solid transparent;
+}
+.btn-primary {
+    background: #F1E14C;
+    color: #000;
+
+    &:hover {
+        background: transparent;
+        color: #F1E14C;
+        border-color: #F1E14C;
+    }
+}
+.btn-secondary {
+    font-family: $ManropefontFamili;
+    font-weight: normal;
+    font-size: 14px;
+    border: 2px solid transparent;
+    transition: 0.3s all ease;
+    text-decoration: none;
+    outline: 0;
+    border-radius: 50px;
+    display: inline-block;
+    padding: 18px 31px;
+}
+.btn-white-border {
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+
+    &:hover {
+        background-color: #fff;
+        color: #007763;
+    }
+}
+.btn-green {
+    background: #007763;
+    border: 2px solid transparent;
+    color: #fff;
+
+    &:hover {
+        background: #fff;
+        border: 2px solid #007763;
+        color: #007763;
+
+    }
+}
+.btn-gray {
+    background: #00463A;
+    color: #fff;
+
+    &:hover {
+        border-color: #fff;
+    }
+}
+.btn-full {
+    width: 100%;
+    padding: 13px 10px;
+    text-align: center;
+}
+@media (max-width: 1200px) {
+    .btn {
+        padding: 13px 37px;
+    }
+}

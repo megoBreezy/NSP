@@ -1,0 +1,40 @@
+.icon {
+  fill: currentColor; 
+  display: inline-block;
+  vertical-align: top;
+
+  &--cross {
+    width: 18px;
+    height: 18px;
+  }
+
+  &--arrow-right {
+    width: 20px;
+    height: 12px;
+  }
+
+  &--angle-down {
+    width: 5px;
+    height: 3px;
+  }
+  
+  &--telegram {
+    width: 26px;
+    height: 22px;
+  }
+
+  &--whatsapp {
+    width: 25px;
+    height: 25px;
+  }
+
+  &--viber {
+    width: 25px;
+    height: 25px;
+  }
+
+  &--quotes {
+    width: 55px;
+    height: 37px;
+  }
+}

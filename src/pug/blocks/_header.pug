@@ -1,0 +1,45 @@
+header.header
+    .main-container
+        .header__inner
+            a(href="#").logo
+                img(src="img/logo.svg", alt="")
+            .header__right 
+                ul.header__nav.nav 
+                    li.nav__item
+                        a(href="#").nav__link О продукте
+                    li.nav__item
+                        a(href="#").nav__link Контакты
+                .header__phone 
+                    a(href="tel:+375298228704") + 375 29 822 87 04
+                a(href="#").btn-secondary.btn-white-border Зарегистрироваться
+                a(href="#").header__btn-menu
+                    span
+                    span
+                    span 
+.header__menu-mobile
+    a(href="#").menu-close
+        svg.icon.icon--cross
+            use(href="img/sprite.svg#cross")
+    ul.menu-list
+        li.menu-list__item 
+            a(href="#tag1").menu-list__link.anchron 
+                |Когда принимать
+        li.menu-list__item 
+            a(href="#tag2").menu-list__link.anchron 
+                |Получить консультацию
+        li.menu-list__item 
+            a(href="#tag3").menu-list__link.anchron 
+                |Преимущества
+        li.menu-list__item 
+            a(href="#tag4").menu-list__link.anchron 
+                |Характеристики
+        li.menu-list__item 
+            a(href="#tag5").menu-list__link.anchron 
+                |Где купить ?
+        li.menu-list__item 
+            a(href="#tag6").menu-list__link.anchron 
+                |Контакты
+button(onclick="topFunction()")#scrollTop
+    .btn__inner
+        svg.icon.icon--angle-down
+            use(href="img/sprite.svg#angle-down")

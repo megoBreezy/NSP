@@ -1,0 +1,219 @@
+.benefits {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 108px;
+    align-items: center;
+
+    &__col {
+        flex: 0 0 32.5%;
+        padding: 14px 0 0 0;
+    }
+
+    &__img {
+        flex: 0 0 35%;
+
+        img {
+            max-width: 100%;
+            display: block;
+        }
+    }
+}
+
+.benefits-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    &__item {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 29px;
+        color: #000000;
+        margin-bottom: 46px;
+        position: relative;
+        min-height: 58px;
+        display: flex;
+        align-items: center;
+
+        &:after {
+            width: 6px;
+            height: 6px;
+            content: '';
+            position: absolute;
+            border-radius: 50%;
+            top: 50%;
+            transform: translateY(-50%);
+            background: #459D34;
+            box-shadow: 0 0 0 15px rgba($color: #2EA816, $alpha: 0.15);
+        }
+    }
+}
+
+@media (min-width: 1024px) {
+    .benefits-list--left {
+        .benefits-list__item {
+            padding-right: 40px;
+            text-align: right;
+            
+            &:after {
+                right: 0;
+            }
+        }
+    }
+    .benefits-list--right {
+        .benefits-list__item {
+            padding-left: 40px;
+            
+            &:after {
+                left: 0;
+            }
+        }
+    }
+}
+
+.profit-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+    margin-bottom: 148px;
+
+    &__item {
+        flex: 0 0 25%;
+        padding: 0 15px;
+    }
+}
+.profit-card {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    padding: 22px 22px 37px 28px;
+    height: 100%;
+
+    &__number {
+        font-style: normal;
+        font-weight: 800;
+        font-size: 64px;
+        line-height: 1.1;
+        color: #007763;
+        margin-bottom: 12px;
+
+        &-inner {
+            display: inline-block;
+            transition: 0.3s all ease;
+        }
+
+        &:after {
+            width: 79px;
+            height: 4px;
+            background: #057763;
+            content: '';
+            display: inline-block;
+            vertical-align: middle;
+            margin-left: 19px;
+        }
+    }
+
+    &__text {
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 20px;
+        color: #000000;
+        margin: 0;
+    }
+}
+
+@media (max-width: 1250px) {
+    .profit-card__number:after {
+        width: 50px;
+        margin-left: 15px;
+    }
+    .profit-card__number {
+        font-size: 50px;
+    }
+    .profit-card {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .benefits-list__item {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .profit-list {
+        margin-bottom: 70px;
+    }
+}
+
+@media (max-width: 1023px) {
+    .benefits-list__item {
+        &:after {
+            box-shadow: 0 0 0 7px rgb(46 168 22 / 15%);
+        }
+    }
+    .benefits__img {
+        display: none;
+    }
+
+    .benefits__col {
+        padding: 0;
+        flex: 0 0 50%;
+    }
+    .benefits {
+        align-items: start;
+        margin-bottom: 50px;
+    }
+
+    .benefits-list__item {
+        padding-left: 30px;
+        padding-right: 15px;
+        min-height: 0;
+
+        &:after {
+            left: 0;
+            transform: translateY(0);
+            top: 10px;
+        }
+    }
+    .profit-list__item {
+        flex: 0 0 50%;
+        margin-bottom: 30px;
+    }
+    .profit-card__number:after {
+        width: 79px;
+        margin-left: 19px;
+    }
+}
+
+@media (max-width: 678px) {
+    .benefits {
+        align-items: start;
+        flex-direction: column;
+    }
+
+    .benefits-list__item {
+        padding-left: 45px;
+        padding-right: 0;
+        min-height: 0;
+
+        &:after {
+            box-shadow: 0 0 0 15px rgb(46 168 22 / 15%);
+            left: 15px;
+        }
+    }
+}
+
+@media (max-width: 568px) {
+    
+    .profit-list__item {
+        flex: 0 0 100%;
+    }
+}
+
+@media (max-width: 400px) {
+    .benefits-list__item {
+        font-size: 16px;
+    }
+}
+
